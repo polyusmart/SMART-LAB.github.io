@@ -1,0 +1,157 @@
+body
+{
+    font-size: 13px;
+
+    width: 100%;
+    /*min-width: 1024px;*/
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    /*background-color: #f3f3f3;*/
+    background-color: #fafafa;
+
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility !important;
+}
+
+p {
+    font-size: 1.1em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a, a:visited, a:link {
+    color: #607c00;
+}
+
+a:hover  {
+    color: #77893a;
+}
+
+#doc {
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+
+.disable-selection
+{
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+
+     -khtml-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+h3 {
+    font-size: 1.5em
+}
+
+h4 {
+    font-size: 1.1em;
+}
+/* 2. HEADER */
+
+#nav
+{
+    padding-left: 30px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#h-title
+{
+    font-family: 'COMIC Sans MS',  serif;
+    font-size: calc(1.8em + 1.8vw);
+    /*height: 40px;*/
+    font-weight: 600;
+    margin-right: 180px;
+    margin-left: 160px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 0.4em;
+
+    color: rgba(164，16，52，1);
+}
+
+#h-description
+{
+    font-family: 'futura-pt', futura, Futura, sans-serif;
+
+    height: 16px;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    color: #888;
+}
+
+a.nav-link
+{
+    font-size: 1em;
+    font-weight: 600;
+
+    transition: color .1s ease-in-out;
+    text-decoration: none;
+
+    color: #A41034;
+}
+
+a.nav-link:hover
+{
+    color: #A41034;
+}
+
+a.nav-link.active
+{
+    cursor: default;
+
+    color: #A41034;
+    border-bottom: 4px solid #A41034;
+}
+
+/* SECTION */
+#m-section
+{
+    font-size: 14px;
+    font-weight: 100;
+
+    position: fixed;
+
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+div#footer
+{
+    z-index: 9999;
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+
+    /*background-color: #ededed;*/
+    /*border-top: 1px solid #eee;*/
+    background-color: rgba(164, 16, 52, 0.97);
+}
+
+
+div#f-description > p
+{
+    /*font-family: lato, sans-serif;*/
+    font-size: 11px;
+    /*font-weight: 500;*/
+
+    margin: 3px;
+
+    color: #ccc;
+}
